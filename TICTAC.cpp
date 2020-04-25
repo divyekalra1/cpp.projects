@@ -8,7 +8,7 @@ char w[9],c='O';
 int submatwin(int m);
 int checktracker();
 char a[9][3][3];
-/*
+
 void line2(int a,int b,int c,int d,int e,int f)
 {
 	int gd=DETECT,gm;
@@ -36,7 +36,6 @@ void line4(int a,int b,int c,int d,int e,int f,int g,int h)
 	line(a,b,e,f);
 	closegraph();
 }
-*/
 void printmat()
 {
 	clrscr();
